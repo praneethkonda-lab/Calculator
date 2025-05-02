@@ -61,4 +61,26 @@ Praneeth_Calculator_Playwright
 
 ## How to run the tests
 
+git clone Calculator
+cd Calculator
+cd Praneeth_Calculator_Playwright
+
+#### Pre-requisite: 
+
+NodeJS is installed
+
+#### Initialize the project
+npm init -y
+
+#### Install Playwright
+npm install -D @playwright/test
+
+#### Install browser binaries
+npx playwright install
+
+#### Run tests
+npx playwright test
+
+#### View HTML report
+npx playwright show-report
 
