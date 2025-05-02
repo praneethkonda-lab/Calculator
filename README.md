@@ -2,11 +2,11 @@
 
 ## Overview
 
-This test suite automates the validation of a calculator web app using [Playwright](https://playwright.dev/). It covers both integer and decimal operations, ensuring correctness of basic arithmetic logic and proper UI behavior.
+This test suite automates the validation of an online calculator web app (https://www.theonlinecalculator.com/) using [Playwright](https://playwright.dev/). It covers both integer and decimal operations, negative and edge case scenarios ensuring correctness of basic arithmetic logic and proper UI behavior.
 
 ## Test Coverage
 
-Tests are split into two categories:
+Tests are split into three categories and tried to mimic the Page Object Model (POM) by keeping all the locators in calculator.ts file
 
 #### Integer Operations ############
 
@@ -57,4 +57,8 @@ Praneeth_Calculator_Playwright
 ├── playwright.config.ts
 
 └── README.md
+
+
+## How to run the tests
+
 
