@@ -62,7 +62,9 @@ Praneeth_Calculator_Playwright
 ## How to run the tests
 
 git clone Calculator
+
 cd Calculator
+
 cd Praneeth_Calculator_Playwright
 
 #### Pre-requisite: 
